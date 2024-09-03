@@ -1,0 +1,113 @@
+.header {
+  text-align: center;
+}
+
+.heading-1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.exclamation {
+  color: crimson;
+}
+
+.heading-info {
+  font-size: 21px;
+}
+
+.span-underline {
+  /* text-decoration: line-through; */
+}
+
+.header-img {
+  margin-top: 20px;
+}
+
+.multiple-interest-section {
+  margin-top: 50px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mini-container {
+  flex: 0 1 calc(33.33% - 20px);
+  margin: 10px;
+  /* padding: 20px; */
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+
+.mini-container-title {
+  /* font-size: 20px; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* color: rgb(244, 137, 5); */
+  color: brown;
+  text-align: center;
+}
+
+.mini-container-list {
+  font-size: 18px;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+/* .mini-container-list-item::before {
+  content: "→"; */
+/* content: "⤷"; */
+/* content: "⇾"; */
+/* } */
+
+.harkirat-favicon,
+.mdn-favicon,
+.favicon-scaler,
+.html-css-favicon,
+.js-favicon,
+.favicon-github,
+.teams-favicon,
+.cognizant-udemy-favicon,
+.whatsapp-favicon,
+.netflix-favicon,
+.youtube-favicon {
+  float: left;
+  margin-right: 10px;
+}
+
+.mini-container-list-item {
+  margin-bottom: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+}
+.list-item-link {
+  text-decoration: none;
+}
+
+a.list-item-link:link,
+a.list-item-link:visited {
+  /* color: rgb(249, 47, 47); */
+  /* color: darkblue; */
+  /* color: rgb(152, 17, 248); */
+  /* color: rgb(244, 137, 5); */
+  /* color: goldenrod; */
+  text-decoration: none;
+}
+
+a.list-item-link:hover {
+  /* color: aquamarine; */
+  /* color: rgb(249, 47, 47); */
+  color: rgb(152, 17, 248);
+  /* color: goldenrod; */
+}
+
+.quick-links {
+  color: brown;
+}
